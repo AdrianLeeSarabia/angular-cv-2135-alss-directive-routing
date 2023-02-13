@@ -9,7 +9,12 @@ export class EducationComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
+
+  achievements1 = [
+    "Mary Help of Christian School",
+    "Holy Angel University",
+    'Don Bosco Academy Pampanga',
+  ];
 
 }

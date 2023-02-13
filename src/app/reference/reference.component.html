@@ -104,4 +104,21 @@
       </div>
     </div>
   </section>
+  <div class="additionalRef">
+    <div>
+      <h5 class="text-center">Additional Reference</h5>
+    </div>
+    <br />
+    <div class="table col-12">
+      <table class="col-12">
+        <tr *ngFor="let item of addReference">
+          <td [ngStyle]="{ border: '1px solid #000000' }">{{ item.name }}</td>
+          <td [ngStyle]="{ border: '1px solid #000000' }">
+            {{ item.connection }}
+          </td>
+          <td [ngStyle]="{ border: '1px solid #000000' }">{{ item.email }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
 </div>
